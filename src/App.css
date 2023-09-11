@@ -1,3 +1,58 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+
+
+.textInp {
+  width: 300px;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.addBtn {
+  width: 70px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.todoList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todoItem {
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.checkbox {
+  width: 20px;
+  cursor: pointer;
+}
+
+.xBtn {
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+}
+
+.todoFooter {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
 }
